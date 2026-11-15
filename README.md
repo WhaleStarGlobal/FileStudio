@@ -3,82 +3,81 @@
 </p>
 
 <h1 align="center">File Studio</h1>
-<p align="center"><strong>Your files. Your workspace.</strong></p>
+<p align="center"><strong>File management, editors, and remote access for Android.</strong></p>
 <p align="center"><a href="README.md">English</a> · <a href="README.zh-CN.md">简体中文</a></p>
-<p align="center"><a href="https://play.google.com/store/apps/details?id=com.happy.explorer" aria-label="Open File Studio on Google Play" title="Open File Studio on Google Play"><img src="docs/images/badges/google-play-en.png" alt="Get it on Google Play" width="206"></a></p>
-<p align="center"><a href="https://whalestarglobal.github.io/FileStudio/">Product page</a> · <a href="https://fs.xingqux.com/">Website</a></p>
-File Studio brings file management, code editing, APK inspection, a terminal, and remote access into one Android workspace. Open a folder and get on with what you came to do.
+<p align="center"><a href="https://whalestarglobal.github.io/FileStudio/">Product page</a> · <a href="https://fs.xingqux.com/">Website</a> · <a href="https://fs.xingqux.com/legal/privacy/">Privacy</a></p>
 
-## What would you like to do?
+File Studio combines a file explorer, built-in editors, APK / DEX inspection, a terminal, and remote connections. Manage files on your device, edit text and binary data, and work with files on your computer or server.
 
-### Find it. Move it. Keep going.
+## Download from Google Play
 
-Keep folders close with tabs and bookmarks. Copy, move, or rename files in batches, and recover items from the built-in recycle bin.
+<p><a href="https://play.google.com/store/apps/details?id=com.happy.explorer" title="Download from Google Play"><img src="docs/images/badges/google-play-en.png" alt="Get it on Google Play" width="206"></a></p>
 
-### Make the change while it’s fresh.
-
-Fix a config, update a script, or read a log. Syntax highlighting, search and replace, and undo keep the details within reach.
-
-### See what’s inside.
-
-Browse ZIP archives, check binary data in hex, or explore an APK’s DEX class tree. Read Smali and preview Java when you need a closer look.
-
-### Reach beyond your phone.
-
-Open files on your computer or server over FTP, FTPS, SFTP, SMB, or WebDAV. Share a folder locally, or send files to another File Studio device on the same Wi-Fi.
-
-## Your next tool is already here.
-
-- **Terminal** — Open a session from the folder you’re browsing, with extra keys for the commands you use.
-- **Root & Shizuku** — Use your existing setup for elevated file access when you need it.
-- **SQLite & apps** — Inspect databases, review app permissions and components, and export installed APKs.
-- **Media & documents** — View PDFs, edit images, and tune audio playback without leaving your file workspace.
+The badge opens the File Studio listing on Google Play.
 
 ## Screenshots
 
 <table width="100%">
   <tr>
     <td colspan="5" align="center" valign="top">
-      <a href="docs/images/en/phone-01.png"><img src="docs/images/en/phone-01.png" alt="File browsing" width="100%"></a><br>
-      <sub>File browsing</sub>
+      <a href="docs/images/screenshots/en/file-explorer.png"><img src="docs/images/screenshots/en/file-explorer.png" alt="File explorer" width="100%"></a><br>
+      <sub>File explorer</sub>
     </td>
   </tr>
   <tr>
     <td width="20%" align="center" valign="top">
-      <a href="docs/images/en/phone-02.png"><img src="docs/images/en/phone-02.png" alt="Code editor" width="100%"></a><br>
-      <sub>Code editor</sub>
+      <a href="docs/images/screenshots/en/code-editor.png"><img src="docs/images/screenshots/en/code-editor.png" alt="Code" width="100%"></a><br>
+      <sub>Code</sub>
     </td>
     <td width="20%" align="center" valign="top">
-      <a href="docs/images/en/phone-03.png"><img src="docs/images/en/phone-03.png" alt="Hex editor" width="100%"></a><br>
-      <sub>Hex editor</sub>
+      <a href="docs/images/screenshots/en/hex-editor.png"><img src="docs/images/screenshots/en/hex-editor.png" alt="Hex" width="100%"></a><br>
+      <sub>Hex</sub>
     </td>
     <td width="20%" align="center" valign="top">
-      <a href="docs/images/en/phone-04.png"><img src="docs/images/en/phone-04.png" alt="Image editor" width="100%"></a><br>
-      <sub>Image editor</sub>
+      <a href="docs/images/screenshots/en/image-editor.png"><img src="docs/images/screenshots/en/image-editor.png" alt="Images" width="100%"></a><br>
+      <sub>Images</sub>
     </td>
     <td width="20%" align="center" valign="top">
-      <a href="docs/images/en/phone-05.png"><img src="docs/images/en/phone-05.png" alt="Audio player" width="100%"></a><br>
-      <sub>Audio player</sub>
+      <a href="docs/images/screenshots/en/audio-player.png"><img src="docs/images/screenshots/en/audio-player.png" alt="Audio" width="100%"></a><br>
+      <sub>Audio</sub>
     </td>
     <td width="20%" align="center" valign="top">
-      <a href="docs/images/en/phone-06.png"><img src="docs/images/en/phone-06.png" alt="Folder sharing" width="100%"></a><br>
-      <sub>Folder sharing</sub>
+      <a href="docs/images/screenshots/en/folder-sharing.png"><img src="docs/images/screenshots/en/folder-sharing.png" alt="Sharing" width="100%"></a><br>
+      <sub>Sharing</sub>
     </td>
   </tr>
 </table>
 
-## Before you get started
+## Features
+
+- **File explorer** — Tabs, bookmarks, multi-select, common file operations, and an in-app recycle bin.
+- **Text and code editor** — Edit configs, logs, and scripts with syntax highlighting, search and replace.
+- **Hex editor** — View address, hexadecimal, and ASCII side by side, and edit individual bytes.
+- **Image editor** — Add text and adjust color and opacity on the editing canvas.
+- **Audio player** — Control EQ, bass boost, surround, loudness, and playback speed.
+- **Folder sharing** — Share folders over FTP, FTPS, SFTP, or WebDAV, and display the address as a QR code.
+
+### More file tools
+
+- **Remote connections** — Connect to FTP, FTPS, SFTP, SMB, and WebDAV servers to browse and manage remote files.
+- **Archives** — Open ZIP, APK, and XAPK archives; extract, search, and view their contents.
+- **APK / DEX inspector** — Browse a class tree, read Smali, and preview Java. [View screenshot](docs/images/screenshots/shared/apk-dex.png).
+- **Terminal** — Open built-in terminal sessions for command-line tasks. [View screenshot](docs/images/screenshots/shared/terminal.png).
+- **Root / Shizuku** — Use your device’s existing Root or Shizuku setup for elevated file access. [View screenshot](docs/images/screenshots/shared/root-shizuku.png).
+- **App manager** — Browse installed apps, inspect permissions and components, open storage locations, and export APKs.
+- **Nearby Transfer** — Send files to another File Studio device on the same Wi-Fi network, using device selection, an address, or a QR code.
+- **Database browser** — Browse SQLite database files.
+- **Documents and video** — View PDFs and use the built-in video playback tools.
+
+## Availability
 
 - Some advanced tools require a subscription.
-- Smali and Java previews through APK / DEX are read-only in the Google Play edition.
-- Protected locations depend on Android permissions and your Root or Shizuku setup.
-- Local folder sharing supports FTP, FTPS, SFTP (Android 8+), and WebDAV. Nearby Transfer connects File Studio devices on the same Wi-Fi.
+- Smali and Java previews opened through APK / DEX are read-only in the Google Play edition.
+- Access to protected locations depends on Android permissions and your Root or Shizuku setup.
+- Local SFTP folder sharing requires Android 8 or later. FTP, FTPS, and WebDAV are also available for folder sharing.
 
-## Explore File Studio
+## Contact
 
-Visit the product page, get the app, or send feedback.
-
-<p><a href="https://play.google.com/store/apps/details?id=com.happy.explorer" aria-label="Open File Studio on Google Play" title="Open File Studio on Google Play"><img src="docs/images/badges/google-play-en.png" alt="Get it on Google Play" width="206"></a></p>
-[Website](https://fs.xingqux.com/) · [Privacy](https://fs.xingqux.com/legal/privacy/) · [Email](mailto:jingyouxingqu@gmail.com)
-
-[X (@geekfilestudio)](https://x.com/geekfilestudio?s=11) · [Telegram Boost](https://t.me/boost?c=3810486807)
+- **Email**: [jingyouxingqu@gmail.com](mailto:jingyouxingqu@gmail.com)
+- **X**: [@geekfilestudio](https://x.com/geekfilestudio?s=11)
+- **Telegram Boost**: [Telegram Boost](https://t.me/boost?c=3810486807)
