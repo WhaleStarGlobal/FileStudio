@@ -1,95 +1,86 @@
 <p align="center">
-  <img src="docs/images/icon.png" alt="File Studio" width="96" height="96">
+  <img src="docs/images/icon.png" alt="File Studio" width="72" height="72">
 </p>
 
 <h1 align="center">File Studio</h1>
-<p align="center">
-  <strong>极客文件管理器</strong><br>
-  为极客而生。为喜欢折腾的用户打造的文件管理器。
-</p>
+<p align="center"><strong>你的文件， 你的工作台。</strong></p>
+<p align="center"><a href="README.md">English</a> · <a href="README.zh-CN.md">简体中文</a></p>
+<p align="center"><a href="https://play.google.com/store/apps/details?id=com.happy.explorer" aria-label="前往 Google Play 商店下载 File Studio" title="前往 Google Play 商店下载 File Studio"><img src="docs/images/badges/google-play-zh-cn.png" alt="去 Google Play 商店下载" width="206"></a></p>
+<p align="center"><a href="https://whalestarglobal.github.io/FileStudio/zh-cn/">应用介绍</a> · <a href="https://fs.xingqux.com/zh-cn/">官网</a></p>
 
-<p align="center">
-  <a href="README.md">English</a> ·
-  <a href="README.zh-CN.md">简体中文</a>
-</p>
+File Studio 把文件管理、代码编辑、APK 查看、终端和远程访问放进同一个 Android 工作台。打开目录，就能接着完成手头的事。
 
-<p align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.happy.explorer">
-    <img alt="获取于 Google Play" src="https://play.google.com/intl/zh-cn/badges/static/images/badges/zh-cn_badge_web_generic.png" height="80">
-  </a>
-</p>
+## 现在，你想做什么？
 
-<p align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.happy.explorer">Google Play</a>
-  · <a href="https://whalestarglobal.github.io/FileStudio/zh-cn/">预览页</a>
-  · <a href="https://fs.xingqux.com/zh-cn/">官网</a>
-</p>
+### 找到文件，接着做事。
 
-在 Android 上完成程序员平时要换好几款工具才能做的事：浏览工程目录、改源码、看二进制、拆开 APK 里的 DEX、开一个终端，再连回自己的电脑或服务器。
+用标签页和书签留住常用目录，批量复制、移动、重命名。误删的文件，也可以从应用内回收站找回。
 
-## 一个应用，六种用法
+### 想改的地方，随手就改。
 
-| | | |
-| --- | --- | --- |
-| **浏览**<br>标签页、书签、批量操作 | **编辑**<br>带语法高亮的文本与代码 | **查看**<br>十六进制、APK 与 DEX |
-| **创作**<br>图片编辑与音频 DSP | **连接**<br>FTP、SFTP、SMB、WebDAV | **深入**<br>Root、Shizuku、终端、SQLite |
+调整配置、修改脚本、阅读日志。语法高亮、查找替换和撤销，让手机上的每一次修改更顺手。
 
-<p align="center">
-  <img src="docs/images/zh-cn/phone-01.png" alt="File Studio 文件浏览，标签页与终端" width="920">
-</p>
+### 打开文件，再看深一点。
 
-<table>
+浏览 ZIP 压缩包，核对十六进制数据，或展开 APK 中的 DEX 类树。需要了解代码时，还能阅读 Smali、预览 Java。
+
+### 手机之外，也触手可及。
+
+通过 FTP、FTPS、SFTP、SMB 或 WebDAV 连接电脑和服务器。也能在局域网分享文件夹，或向同一 Wi-Fi 下的另一台 File Studio 传送文件。
+
+## 用得上时，就在手边。
+
+- **终端** — 从当前目录打开会话，用 Esc、Ctrl 和方向键等快捷键继续操作。
+- **Root 与 Shizuku** — 按需使用设备已有的授权方式，访问需要更高权限的文件。
+- **SQLite 与应用管理** — 查看数据库、了解应用权限与组件，导出已安装应用的 APK。
+- **媒体与文档** — 查看 PDF、编辑图片、调节音频播放，让文件处理多几种可能。
+
+## 应用截图
+
+<table width="100%">
   <tr>
-    <td width="50%"><img src="docs/images/zh-cn/phone-02.png" alt="带语法高亮的代码编辑"></td>
-    <td width="50%"><img src="docs/images/zh-cn/phone-03.png" alt="地址、十六进制与 ASCII 并排的十六进制编辑器"></td>
+    <td colspan="5" align="center" valign="top">
+      <a href="docs/images/zh-cn/phone-01.png"><img src="docs/images/zh-cn/phone-01.png" alt="文件浏览" width="100%"></a><br>
+      <sub>文件浏览</sub>
+    </td>
   </tr>
   <tr>
-    <td><img src="docs/images/zh-cn/phone-04.png" alt="画布上的图片编辑：文字、颜色与透明度"></td>
-    <td><img src="docs/images/zh-cn/phone-05.png" alt="音频均衡器、低音增强、环绕声与播放速度"></td>
-  </tr>
-</table>
-
-<p align="center">
-  <img src="docs/images/zh-cn/phone-06.png" alt="通过 FTP、SFTP、SMB 分享文件夹" width="460">
-</p>
-
-## 再往里看
-
-同一个文件标签页里，还能打开通常要另装应用才有的工具。
-
-<table>
-  <tr>
-    <td width="33%" valign="top" align="center">
-      <img src="docs/images/dex.png" alt="DEX 类树" width="240"><br>
-      <b>DEX / APK</b><br>
-      <sub>从 APK 打开 <code>classes*.dex</code>，按包名浏览类树，阅读 Smali，并打开 Java 预览。Google Play 渠道下这条路径是只读的。</sub>
+    <td width="20%" align="center" valign="top">
+      <a href="docs/images/zh-cn/phone-02.png"><img src="docs/images/zh-cn/phone-02.png" alt="代码编辑" width="100%"></a><br>
+      <sub>代码编辑</sub>
     </td>
-    <td width="33%" valign="top" align="center">
-      <img src="docs/images/terminal.png" alt="内置终端" width="240"><br>
-      <b>终端</b><br>
-      <sub>从当前浏览的目录打开会话。快捷栏提供 Esc、Ctrl、方向键和翻页。</sub>
+    <td width="20%" align="center" valign="top">
+      <a href="docs/images/zh-cn/phone-03.png"><img src="docs/images/zh-cn/phone-03.png" alt="十六进制编辑" width="100%"></a><br>
+      <sub>十六进制编辑</sub>
     </td>
-    <td width="33%" valign="top" align="center">
-      <img src="docs/images/root.png" alt="Root 与 Shizuku 设置" width="240"><br>
-      <b>Root / Shizuku</b><br>
-      <sub>可选。设备已有 Shizuku、Magisk / SuperSU 或自定义 <code>su</code> 时，再打开更高权限的文件访问。</sub>
+    <td width="20%" align="center" valign="top">
+      <a href="docs/images/zh-cn/phone-04.png"><img src="docs/images/zh-cn/phone-04.png" alt="图片编辑" width="100%"></a><br>
+      <sub>图片编辑</sub>
+    </td>
+    <td width="20%" align="center" valign="top">
+      <a href="docs/images/zh-cn/phone-05.png"><img src="docs/images/zh-cn/phone-05.png" alt="音频播放" width="100%"></a><br>
+      <sub>音频播放</sub>
+    </td>
+    <td width="20%" align="center" valign="top">
+      <a href="docs/images/zh-cn/phone-06.png"><img src="docs/images/zh-cn/phone-06.png" alt="文件夹分享" width="100%"></a><br>
+      <sub>文件夹分享</sub>
     </td>
   </tr>
 </table>
 
-## 另外还有
+## 开始之前
 
-- **压缩包** — 把 ZIP、JAR、APK、XAPK 当目录浏览；解压、搜索、打开里面的文件
-- **应用管理** — 已安装应用、权限、组件，以及导出 APK
-- **附近传输** — 把文件发到同一 Wi-Fi 上的另一台 File Studio
-- **回收站** — 恢复在应用内删除的项目
-- **SQLite** — 查看数据库文件
-- **文档与媒体** — 查看 PDF；图片、音频之外还有专业视频工具
+- 部分高级工具需要订阅。
+- Google Play 版通过 APK / DEX 打开的 Smali 与 Java 预览为只读。
+- 访问受保护目录取决于 Android 权限，以及设备已有的 Root 或 Shizuku 授权。
+- 本机文件夹分享支持 FTP、FTPS、SFTP（Android 8 及以上）和 WebDAV；附近传输用于同一 Wi-Fi 下的 File Studio 设备。
 
-也可以从本机分享文件夹：FTP、FTPS、SFTP（Android 8 及以上）或 WebDAV，并用二维码显示地址。反过来作为客户端，连接同一组协议。
+## 开始使用 File Studio
 
-## 适合谁
+了解应用、下载安装，或把使用反馈告诉我们。
 
-- 在手机上改脚本、看日志、核对配置的人
-- 要在没有电脑时看 APK 结构、DEX 类树和 Smali 的 Android 开发者
-- 需要 SFTP / SMB / WebDAV 连到自己的机器，或用 Shizuku 访问应用数据目录的人
+<p><a href="https://play.google.com/store/apps/details?id=com.happy.explorer" aria-label="前往 Google Play 商店下载 File Studio" title="前往 Google Play 商店下载 File Studio"><img src="docs/images/badges/google-play-zh-cn.png" alt="去 Google Play 商店下载" width="206"></a></p>
+
+[官网](https://fs.xingqux.com/zh-cn/) · [隐私政策](https://fs.xingqux.com/zh-cn/legal/privacy/) · [Email](mailto:jingyouxingqu@gmail.com)
+
+[X (@geekfilestudio)](https://x.com/geekfilestudio?s=11) · [Telegram 助力](https://t.me/boost?c=3810486807)

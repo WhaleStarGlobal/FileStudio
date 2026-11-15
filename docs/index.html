@@ -1,219 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>File Studio — Geek file manager</title>
-    <meta
-      name="description"
-      content="Born for geeks. File explorer, code and hex editors, APK/DEX inspection, terminal, and remote access — in one Android app."
-    />
-    <meta property="og:title" content="File Studio — Geek file manager" />
-    <meta
-      property="og:description"
-      content="Born for geeks. A file manager made for tinkerers."
-    />
-    <meta property="og:image" content="images/hero-slide.png" />
-    <link rel="icon" href="images/icon.png" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="wrap site-header">
-      <a class="brand" href="./">
-        <img src="images/icon.png" alt="" width="36" height="36" />
-        File Studio
-      </a>
-      <nav class="nav">
-        <a href="./" aria-current="page">EN</a>
-        <a href="zh-cn/">中文</a>
-        <a
-          class="play-text"
-          href="https://play.google.com/store/apps/details?id=com.happy.explorer"
-          >Google Play</a
-        >
-      </nav>
-    </header>
-
-    <main>
-      <section class="wrap hero">
-        <img
-          class="hero-slide"
-          src="images/hero-slide.png"
-          alt="File Studio — your pocket file workbench on phone and tablet"
-        />
-      </section>
-
-      <section class="wrap intro">
-        <h1>One app for the whole file workflow.</h1>
-        <p>
-          File Studio puts a file explorer, code and hex editors, archive tools,
-          a terminal, and remote access in one Android app. Browse a project,
-          inspect an APK, edit a script, and copy a file to your computer without
-          switching tools.
-        </p>
-      </section>
-
-      <p class="play-row">
-        <a href="https://play.google.com/store/apps/details?id=com.happy.explorer">
-          <img
-            alt="Get it on Google Play"
-            src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-          />
-        </a>
-      </p>
-
-      <section class="wrap ways">
-        <p class="ways-kicker">The answer</p>
-        <h2>One app. Six ways to take control.</h2>
-        <div class="ways-grid">
-          <div class="way">
-            <span class="num">01</span>
-            <strong>Browse</strong>
-            <span>Tabs, bookmarks, batch operations</span>
-          </div>
-          <div class="way">
-            <span class="num">02</span>
-            <strong>Edit</strong>
-            <span>Syntax-highlighted text and code</span>
-          </div>
-          <div class="way">
-            <span class="num">03</span>
-            <strong>Inspect</strong>
-            <span>Hex, APK, and DEX</span>
-          </div>
-          <div class="way">
-            <span class="num">04</span>
-            <strong>Create</strong>
-            <span>Image editing and audio DSP</span>
-          </div>
-          <div class="way">
-            <span class="num">05</span>
-            <strong>Connect</strong>
-            <span>FTP, SFTP, SMB, WebDAV</span>
-          </div>
-          <div class="way">
-            <span class="num">06</span>
-            <strong>Go deeper</strong>
-            <span>Root, Shizuku, terminal, SQLite</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="wrap gallery" aria-label="Screenshots">
-        <img
-          class="shot"
-          src="images/en/phone-01.png"
-          alt="Efficient file browsing — copy tabs, close others, and open a terminal"
-        />
-        <div class="pair">
-          <img
-            class="shot"
-            src="images/en/phone-02.png"
-            alt="Efficient code editing — syntax highlighting, line numbers, and undo"
-          />
-          <img
-            class="shot"
-            src="images/en/phone-03.png"
-            alt="High-performance hex editing — address, hex, and ASCII side by side"
-          />
-        </div>
-        <div class="pair">
-          <img
-            class="shot"
-            src="images/en/phone-04.png"
-            alt="Professional image editing — text, color, and opacity on the canvas"
-          />
-          <img
-            class="shot"
-            src="images/en/phone-05.png"
-            alt="High-performance audio tuning — EQ, bass boost, surround, loudness, and playback speed"
-          />
-        </div>
-        <img
-          class="shot portrait"
-          src="images/en/phone-06.png"
-          alt="Efficient folder sharing — run a local server, or connect over FTP, SFTP, SMB"
-        />
-      </section>
-
-      <section class="wrap deeper">
-        <h2>Go deeper</h2>
-        <p class="lead">The same file tab also opens tools that usually live in separate apps.</p>
-        <div class="deeper-grid">
-          <figure>
-            <img src="images/dex.png" alt="DEX class tree for classes.dex" />
-            <figcaption>
-              <strong>DEX / APK</strong>
-              <span>Open classes*.dex, walk the class tree, read Smali, and preview Java. On Google Play this path is read-only.</span>
-            </figcaption>
-          </figure>
-          <figure>
-            <img src="images/terminal.png" alt="Built-in terminal session" />
-            <figcaption>
-              <strong>Terminal</strong>
-              <span>Open a session from the folder you are browsing. Extra keys for Esc, Ctrl, arrows, and paging.</span>
-            </figcaption>
-          </figure>
-          <figure>
-            <img src="images/root.png" alt="Shizuku and Root settings" />
-            <figcaption>
-              <strong>Root / Shizuku</strong>
-              <span>Optional elevated file access via Shizuku, Magisk / SuperSU, or a custom su path.</span>
-            </figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section class="wrap also">
-        <h2>Also in the app</h2>
-        <ul>
-          <li><strong>Archives</strong> — browse ZIP, JAR, APK, and XAPK as folders; extract, search, and open nested files</li>
-          <li><strong>App manager</strong> — installed apps, permissions, components, and APK export</li>
-          <li><strong>Nearby Transfer</strong> — send files to another File Studio device on the same Wi-Fi</li>
-          <li><strong>Recycle bin</strong> — restore items deleted inside the app</li>
-          <li><strong>SQLite</strong> — inspect database files</li>
-          <li><strong>Documents</strong> — view PDFs; professional video tools alongside image and audio editors</li>
-        </ul>
-        <p class="note">
-          Share a folder from this device over FTP, FTPS, SFTP (Android 8+), or WebDAV,
-          and show the address as a QR code. Connect the other way as a client to the same protocols.
-        </p>
-      </section>
-
-      <section class="wrap who">
-        <h2>Who it is for</h2>
-        <ul>
-          <li>People who edit scripts, logs, and configs on a phone</li>
-          <li>Android developers who need an APK / DEX look when a computer is not around</li>
-          <li>Anyone connecting over SFTP, SMB, or WebDAV, or using Shizuku for app data directories</li>
-        </ul>
-        <p class="note">
-          A subscription unlocks advanced tools. Root, Shizuku, and Nearby Transfer are available without a subscription.
-        </p>
-      </section>
-
-      <section class="cta">
-        <a href="https://play.google.com/store/apps/details?id=com.happy.explorer">
-          <img
-            alt="Get it on Google Play"
-            src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-            height="80"
-          />
-        </a>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="wrap">
-        <p>Guangzhou Jingyou Xingqu Technology Co., Ltd.</p>
-        <p>
-          <a href="https://play.google.com/store/apps/details?id=com.happy.explorer">Google Play</a>
-          · <a href="https://fs.xingqux.com">Website</a>
-          · <a href="https://fs.xingqux.com/legal/privacy/">Privacy</a>
-          · <a href="mailto:jingyouxingqu@gmail.com">jingyouxingqu@gmail.com</a>
-        </p>
-        <p>© 2026 Guangzhou Jingyou Xingqu Technology Co., Ltd.</p>
-      </div>
-    </footer>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>File Studio — Your files. Your workspace.</title>
+  <meta name="description" content="A file manager and workspace for Android. Organize files, edit code, inspect APKs, and connect to your servers with File Studio." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="File Studio — Your files. Your workspace." />
+  <meta property="og:description" content="A file manager and workspace for Android. Organize files, edit code, inspect APKs, and connect to your servers with File Studio." />
+  <meta property="og:url" content="https://whalestarglobal.github.io/FileStudio/" />
+  <meta property="og:image" content="https://whalestarglobal.github.io/FileStudio/images/en/phone-01.png" />
+  <link rel="canonical" href="https://whalestarglobal.github.io/FileStudio/" />
+  <link rel="alternate" hreflang="en" href="https://whalestarglobal.github.io/FileStudio/" />
+  <link rel="alternate" hreflang="zh-CN" href="https://whalestarglobal.github.io/FileStudio/zh-cn/" />
+  <link rel="icon" href="images/icon.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="wrap site-header">
+    <a class="brand" href="./"><img src="images/icon.png" alt="" width="32" height="32" />File Studio</a>
+    <nav class="nav" aria-label="Main navigation"><a href="./" lang="en" aria-current="page">EN</a><a href="zh-cn/" lang="zh-CN">中文</a><a class="store-link nav-get" href="https://play.google.com/store/apps/details?id=com.happy.explorer" aria-label="Open File Studio on Google Play" title="Open File Studio on Google Play"><img src="images/badges/google-play-en.png" alt="Get it on Google Play" width="646" height="250"></a></nav>
+  </header>
+  <main id="main">
+    <section class="wrap hero" aria-labelledby="hero-title">
+      <p class="eyebrow">YOUR WORKSPACE ON ANDROID</p>
+      <h1 id="hero-title">Your files.<br />Your workspace.</h1>
+      <p class="hero-intro">Browse files. Edit code. Inspect an APK. Connect to your server. Keep the tools you use together, right on Android.</p>
+      <div class="actions"><a class="store-link" href="https://play.google.com/store/apps/details?id=com.happy.explorer" aria-label="Open File Studio on Google Play" title="Open File Studio on Google Play"><img src="images/badges/google-play-en.png" alt="Get it on Google Play" width="646" height="250"></a><a class="button secondary" href="#possibilities">Explore the possibilities <span aria-hidden="true">↓</span></a></div>
+      <p class="platform">Made for your Android phone and tablet.</p>
+    </section>
+    <section class="wrap possibilities section" id="possibilities" aria-labelledby="possibilities-title">
+      <div class="section-heading"><p class="eyebrow">START WITH A FILE</p><h2 id="possibilities-title">What would you like to do?</h2><p>A quick change, a closer look, or a file on another device. Start where you are.</p></div>
+      <div class="feature-grid"><article class="feature"><p class="label">01 / Organize</p><h3>Find it. Move it. Keep going.</h3><p>Keep folders close with tabs and bookmarks. Copy, move, or rename files in batches, and recover items from the built-in recycle bin.</p><p class="feature-meta">Tabs · Bookmarks · Batch actions</p></article>
+<article class="feature"><p class="label">02 / Edit</p><h3>Make the change while it’s fresh.</h3><p>Fix a config, update a script, or read a log. Syntax highlighting, search and replace, and undo keep the details within reach.</p><p class="feature-meta">Text · Code · Hex</p></article>
+<article class="feature"><p class="label">03 / Inspect</p><h3>See what’s inside.</h3><p>Browse ZIP archives, check binary data in hex, or explore an APK’s DEX class tree. Read Smali and preview Java when you need a closer look.</p><p class="feature-meta">Archives · APK / DEX · Binary files</p></article>
+<article class="feature"><p class="label">04 / Connect</p><h3>Reach beyond your phone.</h3><p>Open files on your computer or server over FTP, FTPS, SFTP, SMB, or WebDAV. Share a folder locally, or send files to another File Studio device on the same Wi-Fi.</p><p class="feature-meta">Remote access · Folder sharing · Nearby Transfer</p></article></div>
+    </section>
+    <section class="tools-band section" aria-labelledby="tools-title">
+      <div class="wrap"><div class="section-heading"><p class="eyebrow">ROOM TO GO DEEPER</p><h2 id="tools-title">Your next tool is already here.</h2></div><div class="tools-grid"><div class="tool"><h3>Terminal</h3><p>Open a session from the folder you’re browsing, with extra keys for the commands you use.</p></div>
+<div class="tool"><h3>Root &amp; Shizuku</h3><p>Use your existing setup for elevated file access when you need it.</p></div>
+<div class="tool"><h3>SQLite &amp; apps</h3><p>Inspect databases, review app permissions and components, and export installed APKs.</p></div>
+<div class="tool"><h3>Media &amp; documents</h3><p>View PDFs, edit images, and tune audio playback without leaving your file workspace.</p></div></div></div>
+    </section>
+    <section class="wrap preview-section" aria-label="Take a look inside">
+      <details class="preview"><summary><span>Take a look inside</span><span class="preview-hint">Expand one app preview</span></summary><figure><a href="images/en/phone-01.png"><img src="images/en/phone-01.png" alt="File Studio file browsing with folder tabs and a menu for opening a terminal" width="3240" height="1920" loading="lazy" decoding="async" /></a><figcaption>Your folders and tools, in the same workspace.</figcaption></figure></details>
+    </section>
+    <section class="wrap faq section" aria-labelledby="faq-title"><h2 id="faq-title">A few things to know.</h2><div><details><summary>Who is File Studio for?</summary><p>For anyone who works with files on Android, from everyday organizing to developers editing scripts, inspecting APKs, or connecting to a server.</p></details>
+<details><summary>Do I need root?</summary><p>Everyday file management does not require root. Access to protected locations depends on Android permissions and your Root or Shizuku setup.</p></details>
+<details><summary>What should I know before installing?</summary><p>Some advanced tools require a subscription. APK / DEX Smali and Java previews are read-only in the Google Play edition. Local SFTP sharing requires Android 8 or later.</p></details></div></section>
+    <section class="wrap closing" aria-labelledby="closing-title"><h2 id="closing-title">Take your workspace with you.</h2><p>The next time a file needs your attention, open File Studio.</p><a class="store-link" href="https://play.google.com/store/apps/details?id=com.happy.explorer" aria-label="Open File Studio on Google Play" title="Open File Studio on Google Play"><img src="images/badges/google-play-en.png" alt="Get it on Google Play" width="646" height="250"></a></section>
+  </main>
+  <footer class="wrap site-footer"><a class="brand" href="./">File Studio</a><div><a href="https://fs.xingqux.com/">Website</a><a href="https://fs.xingqux.com/legal/privacy/">Privacy</a><a href="https://fs.xingqux.com/legal/terms/">Terms</a><a href="https://x.com/geekfilestudio?s=11">X · @geekfilestudio</a><a href="https://t.me/boost?c=3810486807">Telegram Boost</a><a href="mailto:jingyouxingqu@gmail.com">jingyouxingqu@gmail.com</a></div><p>© 2026 Guangzhou Jingyou Xingqu Technology Co., Ltd.</p></footer>
+</body>
 </html>
